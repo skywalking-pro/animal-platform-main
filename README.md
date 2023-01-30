@@ -1,12 +1,34 @@
 # 流浪动物救助系统-宠物驿站
 
-![登陆界面](https://www.skywalking.pro/download/images/animal-platform/WX20220812-094145@2x.png "登陆界面.png")
+![登陆界面](https://www.skywalking.pro/download/images/animal-platform/WX20230130-172703@2x.png "登陆界面.png")
+
+####  **联系作者** 
+
+ **这是作者的微信二维码，如需本项目源代码，可扫码联系联系作者。**  
+ **   17001380020 微信同号**  
+
+![微信二维码-1](https://singer-coder-public.oss-cn-chengdu.aliyuncs.com/%E5%BE%AE%E4%BF%A1%E4%BA%8C%E7%BB%B4%E7%A0%81-1.png?x-oss-process=image/resize,p_50 "微信二维码-1.png")
+
+![登陆界面](https://www.skywalking.pro/download/images/animal-platform/WX20230130-172703@2x.png "登陆界面.png")
 
 ![主页](https://www.skywalking.pro/download/images/animal-platform/WX20220812-094328@2x.png "主页.png")
 
 **系统功能持续更新中。。。**
 #### 介绍
- **SpringBoot2.X VUE2.6 Antd1.7.2  MyBatisPlus Shiro1.5.0 Java1.8 管理系统 JVM 权限设计 可作为毕业设计和快速开发 宠物驿站管理系统** 
+**
+  本系统分为后台管理系统端和微信小程序端。是基于SSM框架的流浪猫狗领养救助平台管理系统，平台用户可以在浏览器登录系统后进行一系列操作。
+同时系统具备微信小程序端，用户也可以在微信小程序端进行一系列的操作。本系统使用了SpringBoot2.X VUE2.6 Antd1.7.2  MyBatisPlus Shiro1.5.0 Java1.8等一系列技术。** 
+
+** 后台管理系统具备的功能：
+1.实现了系统管理，包括了，系统用户管理，权限管理，角色管理
+2.实现宠物救助站的账务记录，宠物领养申请，小程序轮播图，小程序用户信息功能。
+3.实现了宠物养殖攻略发布功能，待领养宠物查看功能，浏览消息功能，救助站列表功能等。** 
+
+** 小程序端具备的功能：
+1，实现了小程序登录注册，首页轮播图，宠物信息查看功能
+2，实现了宠物发布功能，送养信息，寻主信息功能，查看公告信息功能，发布和查看留言等功能
+3，实现了救助站信息查看功能，足迹查看功能，领养申请查看功能。
+** 
 #### 项目所用技术
 |技术点   | 描述  | 备注   |
 | :------------: | :------------: | :------------: |
@@ -43,13 +65,12 @@
 
 ![小程序二维码](https://www.skywalking.pro/download/images/animal-platform/gh_696e0775de4b_258.jpg "小程序二维码.png")
 
-
 **若演示程序不可用，可翻到文末扫码联系作者微信或者留言**
 
 ### 软件架构说明
 该项目采用市面上比较流程的前后端分离架构，以SpringBoot技术栈为后端，以VUE为前端，采用优雅简洁漂亮的UI框架。系统采用前端发起请求，后端处理业务的方式进行交互，相对于传统的JSP，freemarker等技术有较大区别以及先进性。同时在权限控制方面有独到的创新，实现了VUE自定义指令，以控制系统权限到每一个系统按钮。是非常适合作为毕业设计以及学习的系统。
 #### 前端技术
-1. EleentUI
+1. ElementUI
 2. 页面,按钮级别权限控制。
 3. 多个组件封装，调用方便。
 4. Antv图表组件。
@@ -292,8 +313,8 @@
 
 ```
 1.  mvn clean package
-2.  tar -zxvf health-record-api.tar.gz (解压tar包)
-3.  cd health-record-api
+2.  tar -zxvf animal-platform-api.tar.gz (解压tar包)
+3.  cd animal-platform-api
 5.  sh /sbin/startup.sh dev
 ```
 #### 前端安装方法
