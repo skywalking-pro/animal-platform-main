@@ -49,7 +49,7 @@
 
 ![类注释](https://www.skywalking.pro/download/images/meta/WX20230206-092916@2x.png "类注释")
 
-**1. 数据库字段注释注释**
+**2. 数据库字段注释注释**
 
 ![类注释](https://www.skywalking.pro/download/images/meta/WX20230206-093511@2x.png "类注释")
 #### 项目特有优势
