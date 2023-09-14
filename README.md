@@ -49,6 +49,7 @@
 **2. 数据库字段注释注释**
 
 ![类注释](https://www.skywalking.pro/download/images/meta/WX20230206-093511@2x.png "类注释")
+
 #### 项目特有优势
 1. 清晰的注释，每个方法，类，字段，都具备中文注释。
 2. 部署方便，作者编写了一键启动的脚本，可以让Java后端完美运行在主流服务器上。
@@ -129,7 +130,7 @@
 #### 系统登陆
 - 登陆界面
 
-![登陆界面](https://www.skywalking.pro/download/images/animal-platform/WX20220812-094145@2x.png "登陆界面.png")
+![登陆界面](https://www.skywalking.pro/download/images/animal-platform/WX20230130-172703@2x.png "登陆界面.png")
 
 ![主页](https://www.skywalking.pro/download/images/animal-platform/WX20220812-094328@2x.png "主页.png")
 
