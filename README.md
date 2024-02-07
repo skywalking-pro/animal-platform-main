@@ -1,4 +1,4 @@
-# 流浪动物救助系统-宠物驿站
+# 流浪动物救助系统后台及微信小程序-宠物驿站项目-毕设选题-源代码
 
 ![登陆界面](https://www.skywalking.pro/download/images/animal-platform/WX20230130-172703@2x.png "登陆界面.png")
 
